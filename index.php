@@ -5,4 +5,9 @@
 
 bla blabalbalba
 
+<<<<<<< HEAD
 this is the master version
+=======
+
+<p>I'm now switch to branch trung-handsome</p>
+>>>>>>> trung-handsome
