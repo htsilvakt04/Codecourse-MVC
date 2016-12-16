@@ -4,9 +4,14 @@
  */
 class Home extends Controller
 {
-  public function index($params = "", $ortherName = "")
+  public function index($name="")
   {
-    echo $params;
-    echo $ortherName;
+    $user = $this->model("User");
+    $user->name = $name;
+    $this->view("home/index", ["name" => "$user->name"]);
   }
+
+
+
+
 }
